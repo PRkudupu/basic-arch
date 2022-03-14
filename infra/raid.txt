@@ -1,0 +1,35 @@
+REDUNDANT ARRAY OF INDEPENDENT DISKS
+	Need: on disk failure no data would be lost
+	There are 5 types of raids
+		RAID 0 : 
+		RAID 1
+		RAID 5
+		RAID 1O
+
+RAID 0 :	 
+All data lost
+Speed is faster
+RAID 1:
+One disk would have a duplicate copy
+ 
+
+RAID 5:
+•	Most common set up that is used
+•	Uses 3 or more disks
+•	It is fast and it can store a large amount of data
+•	Data is not duplicated. However, it is striped across multiple disks along with parity.
+Parity: Used to rebuild the data in case of disk failure
+
+Note: equivalent of 1 entire disk would be used to store parity
+
+ 
+
+
+
+RAID 10
+Combining raid 1 and raid 0 together
+•	Benefits  from the fault tolerance of raid 1 and the speed of Raid 0
+Note : You can only use 50% of the disk for storage
+
+ 
+

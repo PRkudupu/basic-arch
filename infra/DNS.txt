@@ -1,0 +1,33 @@
+DNS DOMAIN NAME SYSTEM
+1)	Yahoo.com
+NO ip address found in its own cache memory
+ 
+ 
+2)	RESOLVER SERVER (Isp)
+Is the ISP internet service provider. It would check its own cache memory. If it does not find it would send it to the next level which is the root server.
+ 
+
+3)	ROOT SERVER
+
+•	There are 13 sets of root server strategically placed around the world
+•	Operated by 12 different organizations
+•	Each set has their own unique I.P address
+•	Root server would not know the IP address .It knows where to send the resolver where to find ip address
+•	Would send it to TLD server
+      
+
+
+
+4)	TLD server (Top level domain server)
+•	Stores the address for top level domains (.com ,.net, .org) 
+•	Would not know the ip address.
+•	Would direct to the final level Authoritative name server.
+ 
+5)	ATHOURATIVE NAME SERVER
+•	Would know everything about the domain
+•	Would respond with IP address 
+ 
+
+Note : Once the resolver receives the ip address it would store it in its local memory
+
+
