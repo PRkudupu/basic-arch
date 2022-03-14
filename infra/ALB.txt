@@ -1,0 +1,38 @@
+APPLICATION LOAD BALANCER
+•	Automatically distributes incoming traffic across the backend targets
+•	Layer 7 load balancer (IT works on the application layer)
+•	Infrastructure managed by AWS, highly available, elastic
+Alb INTEGRATION
+ 
+
+WHY USE A LOAD BALANCER
+•	Spread load across multiple downstream instances.
+•	Expose a single point of access (DNS) to your application
+•	Seamlessly handle failures of downstream instances
+•	Do regular health check to your instances
+•	Provide SSL termination (HTTPS) for your wbsites
+•	Enforce stickiness with cookies 
+•	High availability across zones
+•	Separate public traffic from private traffic
+
+TYPES OF LOAD BALANCER ON AWS
+•	Classic load balancer (v1 old generation) 2009
+•	Application load balancer (v2 new generation) 2016
+•	Network load balancer (v2 new generation) 2017
+Note : recommended to use the newer versions as they provide more features
+APPLICATION LOAD BALANCER (V2)
+•	Load balancer to multiple HTTP applications across machines (target groups)
+•	Load balancing to multiple applications on the same machine (containers)
+•	Load balancer based on route in URL
+•	Load balancer based on the hostname in URL
+ 
+
+
+
+
+
+
+
+
+
+
