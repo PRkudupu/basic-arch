@@ -1,0 +1,35 @@
+NAT (Network address translation)
+•	This service is used in routers.
+•	Translates a set of ip address into another set of Ip address.
+•	Helps preserve the limited amount of IPV4 public IP addresses.
+•	It translates private to public and public to private.
+ 
+
+When a device in the LAN want to connect to the internet, The private IP address will be translated by NAT to the public IP address.
+
+ 
+
+IP4 Address
+There are 2 types of ipv4 address
+Public 
+•	Publicly registered on the internet.
+•	Must have public ip to access the internet.
+•	There are approximately 4 billion ip address available on the internet.
+Private
+•	It is not publicly registered.
+•	Cannot directly access the internet with a private IP
+•	Only used internally.
+•	Router assigns private ip
+
+ 
+
+FUTURE
+•	We won’t need NAT or private ip addresses. 
+•	New generation of IP address, called IPv6.
+•	Every device would have its own IP address.
+•	Capable to produce over 340 undecillion IP addresses.
+  
+
+ 
+
+
