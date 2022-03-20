@@ -1,0 +1,38 @@
+BLOCK STORAGE (Storage area network)
+•	Storage is divided into equal no of even blocks.
+•	Stored in blocks.
+•	Has associated index num(address) as address.
+o	Ec2 would have block storage
+o	Operating system is stored in the block storage
+•	Oldest and the simplest data storage.
+•	Would not contain meta data
+
+VOLUME
+•	Volume would be attached to blocks.
+•	It can be attached or detached to completely different applications.
+
+ADVANTAGES
+•	Is the fastest kind of storage.
+•	We can make incremental changes to the data.
+•	Data is replicated 3x times.
+•	High availability and fault tolerant.
+
+USE CASES
+•	Used for database storage.
+•	Has high read and write speed.
+•	Used for backup.
+•	Give persistence storage
+
+ 
+ 
+ 
+
+BLOCK STORAGE
+•	Stored as whole (Never be divided into even blocks).
+•	The object can be the file, music or the meta data or GUID,
+•	Meta data information of the file can be stored with it.
+ 
+
+
+ 
+
