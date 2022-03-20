@@ -1,0 +1,24 @@
+TCP (Transmission control protocol)
+•	The communication between 2 computers needs to be good and reliable to guarantee that the data is received correctly.
+•	Guarantee that all data is received and in order.
+•	Connection oriented protocol.
+•	2 computers verify the connection without before any communication starts with the help of 3 handshake.
+•	It guarantees the transfer of data.
+ 
+      HANDSHAKE
+1.	Computer A would send a SYN 
+2.	Receiving computer B would send an acknowledgement SYN ACK
+3.	Computer A sends response as ACK received as response back to computer B
+          
+
+       Note:
+o	Web page without tcp then the web page would be out of order.
+o	Download without tcp would not be complete download.
+
+UDP (User datagram protocol)
+o	Like TCP, used for sending and receiving data.
+o	Connectionless oriented protocol.
+o	Does not guarantee data delivery (Fire and forget protocol)
+o	Due to the less overhead of no guaranteed delivery, UDP is faster than TCP
+ 
+

@@ -1,0 +1,18 @@
+VIRTUAL MACHINES (VM)
+•	Hardware virtualization.
+•	Hypervisor is responsible for creating virtualized instances (RAM, STORAGE, NETWORK CARDS).
+•	One server acting as different machines (machines are relatively independent of each other).
+•	Isolation of machines.
+•	Infinite flexibility with hardware.
+CONTAINER
+•	Operating system level virtualization
+•	On top of the hardware there is a kernel, on top of the kernel, we have operating systems, on top of OS we would have the containers.
+•	Dealing with process isolation.
+•	Each container only needs the libraries for running the application.
+•	Has namespace and cgroup which limits and monitors our containers.
+•	Has infinite portability. 
+Note: Container is defined in a single file known as docker file.
+ 
+
+ 
+
